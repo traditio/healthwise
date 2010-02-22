@@ -1,0 +1,3 @@
+[submodule "fluid960gs"]
+        path = media/vendors/fluid960gs
+        url = git://github.com/bauhouse/fluid960gs.git
