@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Healthwise.RU | {% block title %}{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{{ MEDIA_URL }}vendors/fluid960gs/css/reset.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{{ MEDIA_URL }}vendors/fluid960gs/css/text.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{{ MEDIA_URL }}vendors/fluid960gs/css/grid.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{{ MEDIA_URL }}vendors/fluid960gs/css/layout.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{{ MEDIA_URL }}vendors/fluid960gs/css/nav.css" media="screen" />
+    <!--[if IE 6]><link rel="stylesheet" type="text/css" href="{{ MEDIA_URL }}vendors/fluid960gs/css/ie6.css" media="screen" /><![endif]-->
+    <!--[if IE 7]><link rel="stylesheet" type="text/css" href="{{ MEDIA_URL }}vendors/fluid960gs/css/ie.css" media="screen" /><![endif]-->
+
+  </head>
+  <body>
+    <div class="container_16">
+      <div class="grid_16">
+	<h1 id="branding">
+	  <a href="/">Сайт Здраво!</a>      
+	</h1>
+      </div>
+      <div class="clear"></div>
+      <div class="grid_16">
+        <ul class="nav main">
+          <li><a href="/">Заглавная страница</a></li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+      <div class="grid_16">
+      {% block content %}
+      {% endblock %}
+      </div>
+
+      <div class="clear"></div>
+      <div class="grid_16" id="site_info">
+	<div class="box">
+          <p>(c) Дмитрий aka Elvis, 2009. Jabber: traditiant@jabber.ru</p>
+	</div>
+      </div>
+      <div class="clear"></div>
+
+    </div>
+  </body>
+</html>
+

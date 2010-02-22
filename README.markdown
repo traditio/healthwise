@@ -36,7 +36,7 @@
  
 Склонируйте проект командой
 
-    git clone http://...
+    git clone http://github.com/traditio/healthwise.git
 
 Обновите сторонние зависимости
 
